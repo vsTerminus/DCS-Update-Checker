@@ -1,0 +1,35 @@
+[game]
+# Where is your game installed?
+# Please *do* include the trailing slash at the end of the directory
+# eg, C:\Games\DCS World\
+install_dir = C:\Games\DCS World\
+
+[updates]
+# How often should we check for updates?
+# Allowable range is 60 to 600 seconds (1 to 10 minutes)
+# Default: 300 (5 minutes)
+interval = 300
+
+# Pick a User Agent
+# Defaults to Chrome on Windows.
+user_agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36
+
+[discord]
+# If you have a Webhook URL from Discord, paste it here.
+# Then if the script finds a new version it will send an update directory to your channel in Discord.
+# It should look something like this:
+# webhook_url = https://discord.com/api/webhooks/16279356729564736/ha789tfyodnfjudgs568tvfd
+webhook_url = 
+
+# If you want to also be pinged in the message, put your Discord user ID here.
+# You can get it by right clicking your name in the Discord client and choosing "Copy ID"
+# (You may have to enable "Developer Mode" under Settings -> Appearance -> Advanced)
+user_id = 
+
+# If you want to use a custom avatar for the Discord post you can change the URL here.
+# Default is the DCS logo: https://i.imgur.com/ghYhllL.png
+avatar_url = https://i.imgur.com/ghYhllL.png
+
+# You can also set the discord username that will make the post.
+# Default: DCS Update Checker
+discord_username = DCS Update Checker

@@ -1,0 +1,8 @@
+# pp build cache
+depcache
+
+# Real config files
+*.ini
+
+# Windows Executables
+*.exe
